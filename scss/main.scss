@@ -1,0 +1,10 @@
+
+
+@import "header";
+
+main{
+  section{
+    @import "portfolio";
+    @import "contact";
+  }
+}

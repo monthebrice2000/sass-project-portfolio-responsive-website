@@ -1,0 +1,33 @@
+$color-header-top : #01cdfe;
+$color-text : #fdfdff;
+$font-family-logo : 'Lobster', cursive;
+$background-section : 	#fbfdfb;
+$background-filter: #333333;
+$background-contact : #8d5524;
+
+
+@mixin font-size_mixin( $font-size , $text-align, $color-text_ ){
+  font-size: $font-size;
+  text-align: $text-align;
+  text-decoration: none;
+  color: $color-text_;
+}
+
+@mixin section_fun( $background-col ){
+  background: $background-col;
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: calc(3vw) 0;
+}
+
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Baloo Tamma 2', 'Indie Flower', cursive;
+}
